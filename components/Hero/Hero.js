@@ -1,21 +1,29 @@
 import { Box, Container, Grid, styled, Typography } from "@mui/material";
 
 const Hero = () => {
-  const StyledCard = styled(Box)({
+  const StyledCard = styled(Box)(({ theme }) => ({
     display: "flex",
     justifyContent: "center",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",
-    height: 400,
     cursor: "pointer",
+
+    [theme.breakpoints.up("md")]: {
+      height: 400,
+    },
+
+    [theme.breakpoints.down("md")]: {
+      height: 200,
+    },
+
     "&:hover": {
       opacity: 0.8,
       boxSizing: "borderBox",
       zIndex: 1,
       transition: "all 0.45s ease",
     },
-  });
+  }));
 
   const StyledTypography = styled(Typography)({
     textAlign: "center",
@@ -24,10 +32,17 @@ const Hero = () => {
     fontSize: 20,
   });
 
-  const StyledWrapper = styled(Box)({
-    paddingTop: "140%",
+  const StyledWrapper = styled(Box)(({ theme }) => ({
     width: "80%",
-  });
+
+    [theme.breakpoints.up("md")]: {
+      paddingTop: "140%",
+    },
+
+    [theme.breakpoints.down("md")]: {
+      paddingTop: "40%",
+    },
+  }));
 
   return (
     <Container>
