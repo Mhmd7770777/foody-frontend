@@ -1,4 +1,5 @@
 import { Box, Container, Grid, styled, Typography } from "@mui/material";
+import Category from "../CategoryList/Category";
 
 const Hero = () => {
   const StyledCard = styled(Box)(({ theme }) => ({
@@ -72,6 +73,7 @@ const Hero = () => {
           </StyledWrapper>
         </Grid>
       </Grid>
+      <Category />
     </Container>
   );
 };
