@@ -46,7 +46,7 @@ const Category = () => {
       Container
       direction={"row"}
       mt={4}
-      spacing={4}
+      spacing={3}
       ml={3}
       sx={{ overflow: "auto" }}
     >
