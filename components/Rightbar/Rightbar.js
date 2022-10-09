@@ -59,7 +59,7 @@ const Rightbar = () => {
       </Box>
       <Card sx={{ height: "200px", marginTop: 2 }}>
         <Typography variant="body1" align="center">
-          Ads Here
+          Ads Here!
         </Typography>
       </Card>
     </Box>
