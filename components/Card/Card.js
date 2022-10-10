@@ -10,12 +10,21 @@ import {
 } from "@mui/material";
 import React from "react";
 
-const PostCard = () => {
+const PostCard = ({ myDirection }) => {
   return (
     <Box mt={3}>
       <Link href={"#"} sx={{ textDecoration: "none" }}>
         <Card>
-          <Box sx={{ display: "flex", flexDirection: "row" }}>
+          <Box
+            sx={{
+              display: {
+                xs: "block",
+                sm: `${myDirection || "flex"}`,
+                md: `${myDirection || "flex"}`,
+              },
+              flexDirection: "row",
+            }}
+          >
             <CardMedia
               component={"img"}
               height="300"
