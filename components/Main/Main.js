@@ -8,7 +8,7 @@ const Main = () => {
         <Box flex={3}>
           <Posts />
         </Box>
-        <Box flex={1} sx={{ sx: "none", md: "block" }}>
+        <Box flex={1} display={{ xs: "none", md: "block" }}>
           <Rightbar />
         </Box>
       </Stack>
