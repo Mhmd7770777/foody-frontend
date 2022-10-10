@@ -10,6 +10,7 @@ function MyApp({ Component, pageProps }) {
       <Hero />
       <Main />
       <Component {...pageProps} />
+      <Footer />
     </>
   );
 }
