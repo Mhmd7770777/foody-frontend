@@ -46,11 +46,62 @@ const DetailsPage = () => {
         Ingredients
       </Typography>
       <List>
-        <ListItemIcon>
-          <DoubleArrowIcon />
+        <ListItemButton>
+          <ListItemIcon>
+            <DoubleArrowIcon />
+          </ListItemIcon>
           <ListItemText primart="Meat" />
-        </ListItemIcon>
+        </ListItemButton>
+        <ListItemButton>
+          <ListItemIcon>
+            <DoubleArrowIcon />
+          </ListItemIcon>
+          <ListItemText primart="Meat" />
+        </ListItemButton>
+        <ListItemButton>
+          <ListItemIcon>
+            <DoubleArrowIcon />
+          </ListItemIcon>
+          <ListItemText primart="Meat" />
+        </ListItemButton>
+        <ListItemButton>
+          <ListItemIcon>
+            <DoubleArrowIcon />
+          </ListItemIcon>
+          <ListItemText primart="Meat" />
+        </ListItemButton>
+        <ListItemButton>
+          <ListItemIcon>
+            <DoubleArrowIcon />
+          </ListItemIcon>
+          <ListItemText primart="Meat" />
+        </ListItemButton>
+        <ListItemButton>
+          <ListItemIcon>
+            <DoubleArrowIcon />
+          </ListItemIcon>
+          <ListItemText primart="Meat" />
+        </ListItemButton>
+        <ListItemButton>
+          <ListItemIcon>
+            <DoubleArrowIcon />
+          </ListItemIcon>
+          <ListItemText primart="Meat" />
+        </ListItemButton>
       </List>
+      <Typography variant="body1" align="center" m={2}>
+        Title of the Recipe Title of the Recipe Title of the Recipe Title of the
+        Recipe Title of the Recipe Title of the Recipe Title of the Recipe Title
+        of the Recipe Title of the Recipe Title of the Recipe Title of the
+        Recipe Title of the Recipe Title of the Recipe Title of the Recipe Title
+        of the Recipe Title of the Recipe Title of the Recipe Title of the
+        Recipe Title of the Recipe Title of the Recipe Title of the Recipe Title
+        of the Recipe
+      </Typography>
+
+      <Typography variant="h5" color={"white"} bgcolor={"black"} align="center">
+        You may also like
+      </Typography>
     </Container>
   );
 };
