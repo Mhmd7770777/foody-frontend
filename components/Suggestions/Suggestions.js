@@ -1,13 +1,13 @@
+import React from "react";
 import { Box, Stack, styled, Typography } from "@mui/material";
 
-const Category = () => {
+const Suggestions = () => {
   const StyledCard = styled(Box)(({ theme }) => ({
     display: "flex",
     justifyContent: "center",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     backgroundSize: "cover",
-    borderRadius: "100%",
     cursor: "pointer",
     overflow: "hidden",
     width: "100px",
@@ -45,6 +45,8 @@ const Category = () => {
     <Stack
       Container
       direction={"row"}
+      justifyContent={"center"}
+      alignItems={"center"}
       mt={4}
       spacing={3}
       ml={3}
@@ -66,20 +68,8 @@ const Category = () => {
         <StyledCard sx={{ backgroundImage: `url()` }} />
         <StyledTypography>Drinks</StyledTypography>
       </CardBox>
-      <CardBox>
-        <StyledCard sx={{ backgroundImage: `url()` }} />
-        <StyledTypography>Drinks</StyledTypography>
-      </CardBox>
-      <CardBox>
-        <StyledCard sx={{ backgroundImage: `url()` }} />
-        <StyledTypography>Drinks</StyledTypography>
-      </CardBox>
-      <CardBox>
-        <StyledCard sx={{ backgroundImage: `url()` }} />
-        <StyledTypography>Drinks</StyledTypography>
-      </CardBox>
     </Stack>
   );
 };
 
-export default Category;
+export default Suggestions;
