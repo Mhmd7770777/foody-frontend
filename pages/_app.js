@@ -1,4 +1,5 @@
 import Hero from "../components/Hero/Hero";
+import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import Main from "../components/Main/Main";
 import "../styles/globals.css";
