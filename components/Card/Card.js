@@ -8,6 +8,7 @@ import {
   CardActions,
   Button,
 } from "@mui/material";
+import burger from "../../styles/images/burger_1.jpg";
 import React from "react";
 
 const PostCard = ({ myDirection }) => {
@@ -28,7 +29,7 @@ const PostCard = ({ myDirection }) => {
             <CardMedia
               component={"img"}
               height="300"
-              image={``}
+              image={`${burger}`}
               alt="burger image "
               sx={{
                 widthh: "400px",

@@ -1,4 +1,6 @@
-import { Container } from "@mui/material";
+import { Box, Container, Stack } from "@mui/material";
+import Posts from "../../components/Posts/Posts";
+import Rightbar from "../../components/Rightbar/Rightbar";
 import React from "react";
 
 const Main = () => {
