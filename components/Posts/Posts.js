@@ -1,4 +1,4 @@
-import { Box, Typography, Grid, Pagination } from "@mui/material";
+import { Box, Typography, Grid, Pagination, Stack } from "@mui/material";
 import React from "react";
 import PostCard from "../Card/Card";
 
