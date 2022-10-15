@@ -1,5 +1,6 @@
 import { Box, Container, Grid, styled, Typography } from "@mui/material";
 import Category from "../CategoryList/Category";
+import burger from "../../styles/images/burger.jpg";
 
 const Hero = () => {
   const StyledCard = styled(Box)(({ theme }) => ({
@@ -49,25 +50,25 @@ const Hero = () => {
     <Container>
       <Grid container direction={"row"} columnSpacing={2} rowSpacing={2}>
         <Grid item xs={6} md={3}>
-          <StyledCard sx={{ backgroundImage: `url()` }}></StyledCard>
+          <StyledCard sx={{ backgroundImage: `url(${burger})` }}></StyledCard>
           <StyledWrapper>
             <StyledTypography>Burger</StyledTypography>
           </StyledWrapper>
         </Grid>
         <Grid item xs={6} md={3}>
-          <StyledCard sx={{ backgroundImage: `url()` }}></StyledCard>
+          <StyledCard sx={{ backgroundImage: `url(${burger})` }}></StyledCard>
           <StyledWrapper>
             <StyledTypography>Burger</StyledTypography>
           </StyledWrapper>
         </Grid>
         <Grid item xs={6} md={3}>
-          <StyledCard sx={{ backgroundImage: `url()` }}></StyledCard>
+          <StyledCard sx={{ backgroundImage: `url(${burger})` }}></StyledCard>
           <StyledWrapper>
             <StyledTypography>Burger</StyledTypography>
           </StyledWrapper>
         </Grid>
         <Grid item xs={6} md={3}>
-          <StyledCard sx={{ backgroundImage: `url()` }}></StyledCard>
+          <StyledCard sx={{ backgroundImage: `url(${burger})` }}></StyledCard>
           <StyledWrapper>
             <StyledTypography>Burger</StyledTypography>
           </StyledWrapper>

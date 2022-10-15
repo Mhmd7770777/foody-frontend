@@ -1,4 +1,5 @@
 import { Box, Stack, styled, Typography } from "@mui/material";
+import burger from "../../styles/images/burger.jpg";
 
 const Category = () => {
   const StyledCard = styled(Box)(({ theme }) => ({
@@ -51,31 +52,33 @@ const Category = () => {
       sx={{ overflow: "auto" }}
     >
       <CardBox>
-        <StyledCard sx={{ backgroundImage: `url()` }} />
+        <StyledCard
+          sx={{ backgroundImage: `url(../../styles/images/burger.jpg)` }}
+        />
         <StyledTypography>Drinks</StyledTypography>
       </CardBox>
       <CardBox>
-        <StyledCard sx={{ backgroundImage: `url()` }} />
+        <StyledCard sx={{ backgroundImage: `url(${burger})` }} />
         <StyledTypography>Drinks</StyledTypography>
       </CardBox>
       <CardBox>
-        <StyledCard sx={{ backgroundImage: `url()` }} />
+        <StyledCard sx={{ backgroundImage: `url(${burger})` }} />
         <StyledTypography>Drinks</StyledTypography>
       </CardBox>
       <CardBox>
-        <StyledCard sx={{ backgroundImage: `url()` }} />
+        <StyledCard sx={{ backgroundImage: `url(${burger})` }} />
         <StyledTypography>Drinks</StyledTypography>
       </CardBox>
       <CardBox>
-        <StyledCard sx={{ backgroundImage: `url()` }} />
+        <StyledCard sx={{ backgroundImage: `url(${burger})` }} />
         <StyledTypography>Drinks</StyledTypography>
       </CardBox>
       <CardBox>
-        <StyledCard sx={{ backgroundImage: `url()` }} />
+        <StyledCard sx={{ backgroundImage: `url(${burger})` }} />
         <StyledTypography>Drinks</StyledTypography>
       </CardBox>
       <CardBox>
-        <StyledCard sx={{ backgroundImage: `url()` }} />
+        <StyledCard sx={{ backgroundImage: `url(${burger})` }} />
         <StyledTypography>Drinks</StyledTypography>
       </CardBox>
     </Stack>

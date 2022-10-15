@@ -15,7 +15,7 @@ const Footer = () => {
     { Name: "Subscribe", Link: "#" },
   ];
   return (
-    <Box sx={{ bgcolot: "tomato", height: "200px" }}>
+    <Box sx={{ bgcolor: "tomato", height: "200px" }}>
       <Container>
         <Stack direction={"row"}>
           <MenuBox flex={2} sx={{ display: { xs: "none", md: "flex" } }}>
