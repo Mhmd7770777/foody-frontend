@@ -8,7 +8,7 @@ import {
   CardActions,
   Button,
 } from "@mui/material";
-import burger from "../../styles/images/burger_1.jpg";
+import burger from "../../styles/images/burger.jpg";
 import React from "react";
 
 const PostCard = ({ myDirection }) => {
